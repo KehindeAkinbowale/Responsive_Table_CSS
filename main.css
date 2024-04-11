@@ -1,0 +1,23 @@
+th{
+    background-color: rgb(50, 174, 245);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table{
+    width: 75%;
+    margin: 0px auto;
+}
+
+tr:hover {background-color: rgb(223, 223, 223);}
+
+@media only screen and (max-width: 728px){
+    table{
+        width: 100%;
+    }
+}
+
